@@ -45,3 +45,20 @@ public class Kata
             return noInts;
         }
 }
+
+#Remove first and last char
+
+using System;
+
+        public class Kata
+        {
+            public static string Remove_char(string s)
+            {    
+                if(s.Length == 2){
+                return "";
+                }
+                s = s.Substring(1);
+                s = s.Substring(0, s.Length-1);
+                return s;
+            }
+        }
