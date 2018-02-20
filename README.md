@@ -24,3 +24,24 @@ public class Remover
     return noMin;
   }
 }
+
+#String cleaning
+
+using System;
+
+public class Kata
+{
+  public static string StringClean(string s)
+        {
+            string noInts = "";
+            for(var i = 0; i < s.Length; i++)
+            {
+                if (!Char.IsDigit(s[i]))
+                {
+                    noInts += s[i];
+                }
+            }
+            
+            return noInts;
+        }
+}
