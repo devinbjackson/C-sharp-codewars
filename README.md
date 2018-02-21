@@ -82,5 +82,20 @@ public class Kata
   }
 }
 
-#
-      
+# Number of People in the Bus
+     
+     
+using System;
+using System.Collections.Generic;
+
+public class Kata
+    {
+        public static int Number(List<int[]> peopleListInOut)
+        {
+          var total = 0;
+          for(var i = 0; i < peopleListInOut.Count; i++){
+            total += peopleListInOut[i][0] - peopleListInOut[i][1];
+          }
+          return total;
+        }
+    }
