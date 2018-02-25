@@ -99,3 +99,16 @@ public class Kata
           return total;
         }
     }
+# Can we devide it?
+
+public class Kata
+{
+    public static bool is_divide_by(int number, int a, int b)
+    {
+        // good luck
+        if(number % b == 0 && number % a == 0 ){
+        return true;
+        }
+        else return false;
+    }
+}
