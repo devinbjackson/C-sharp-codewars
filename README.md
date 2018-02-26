@@ -112,3 +112,19 @@ public class Kata
         else return false;
     }
 }
+
+#Array plus array
+public static class Kata
+{
+  public static int ArrayPlusArray(int[] arr1, int[] arr2)
+  {
+    var sum = 0;
+    foreach (int elem in arr1){
+    sum += elem;
+    }
+    foreach (int elem in arr2){
+    sum += elem;
+    }
+    return sum;
+  }
+}
