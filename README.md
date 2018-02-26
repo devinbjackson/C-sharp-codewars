@@ -113,7 +113,7 @@ public class Kata
     }
 }
 
-#Array plus array
+# Array plus array
 public static class Kata
 {
   public static int ArrayPlusArray(int[] arr1, int[] arr2)
